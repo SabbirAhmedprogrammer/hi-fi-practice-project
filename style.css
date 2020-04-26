@@ -1,0 +1,64 @@
+body {
+    background-color:rgba(228, 181, 154, 0.445);
+    margin:0;
+    padding:0;
+    background-image:url(landscape.jpg);   
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color:white;
+}
+
+main {
+    margin:0;
+    padding:0;
+}
+
+section {
+    padding:0;
+    margin:0;
+}
+
+/* start of main styles */
+
+
+
+.one {
+    width:15%;
+    height:200px;
+    border: 2px solid white;
+}
+
+
+img {
+    max-width:100%;
+    display:block;
+    object-fit:fill;
+    width:100%;
+    border: 2px solid white;
+}
+
+
+/* flex */
+
+header {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+h3 {
+    text-align:center;
+    font-size: 30px;
+}
+
+.one {
+    display:flex;
+}
+
+.main_text {
+    display:flex;
+    flex-direction:column;
+    border:2px solid white;
+}
