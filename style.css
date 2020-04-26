@@ -25,7 +25,6 @@ section {
 
 
 .one {
-    width:15%;
     height:200px;
     border: 2px solid white;
 }
@@ -36,7 +35,7 @@ img {
     display:block;
     object-fit:fill;
     width:100%;
-    border: 2px solid white;
+    
 }
 
 
@@ -61,4 +60,9 @@ h3 {
     display:flex;
     flex-direction:column;
     border:2px solid white;
+    flex:3;
+}
+
+.image {
+    flex:1;
 }
