@@ -24,7 +24,7 @@ section {
 
 
 
-.one {
+.section {
     height:200px;
     border: 2px solid white;
 }
@@ -52,7 +52,15 @@ h3 {
     font-size: 30px;
 }
 
-.one {
+h4 {
+    margin-left:5px;
+}
+
+p {
+    margin:5px;
+}
+
+.section {
     display:flex;
 }
 
