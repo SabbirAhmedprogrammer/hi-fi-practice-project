@@ -6,7 +6,7 @@ body {
      /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+     /* Resize the background image to cover the entire container */
     color:white;
 }
 
@@ -42,9 +42,7 @@ div {
 img {
     width:100%;
     height:100%;
-    object-fit:cover;
-    width:100%;
-    
+    object-fit:cover; 
 }
 
 
@@ -121,4 +119,17 @@ a:hover {
     color:blue;
     transform: scale(1.5, 1.5);
     box-shadow: -1px -1px 17px 7px rgb(10, 247, 89);
+}
+/* testing to see about adding elements in desktop view not showing in mobile */
+.h4_test {
+    display:none;
+}
+
+@media only screen and (min-width:600px){
+    .h4_test {
+        display:initial;
+    }
+
+
+
 }
